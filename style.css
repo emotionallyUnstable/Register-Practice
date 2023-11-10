@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Vina+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+body {
+    font-size: 9px;
+    font-family: Poppins;
+    color:#000;
+    font-weight: 400;
+}
+/*-------------------------*/
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+/*------------------------*/
+
+/*[class*="__container"] {
+    max-width: 1360px;
+    margin: 0px auto;
+}*/
+
+.register__container {
+    margin: 202px 0 0 175px;
+}
+
+.main__register {
+    margin:0 0 0 265px;
+}
+
+.start {
+    margin:0 0 0 265px;
+    font-size: 32px;
+    font-weight: 500;
+    box-shadow: #000;
+    text-shadow: #000 0 4px 5px;
+    padding: 0 0 58px 0;
+    font-weight: 600;
+}
+
+.register__name {
+    font-size: 14px;
+}
+.register__address {
+    font-size: 14px;
+}
+.register__password {
+    font-size: 14px;
+}
+
+
+.form__username {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 0 0 19.7px 0;
+    width: 403px;
+    height: 33px;
+}
+.form__address {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 0 0 19.7px 0;
+    width: 403px;
+    height: 33px;
+}
+.form__password {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 0 0 19.7px 0;
+    width: 403px;
+    height: 33px;
+}
+
+.agree__btn {
+    display: flex;
+    align-items: center;
+    padding: 0 0 35.55px 0;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.input__btn__check{
+    margin: 0 6px 0 0;
+    font-size: 9px;
+}
+
+.signup__btn{
+    background-color: #3A5B22;
+    font-size: 13px;
+    color:#fff;
+    padding: 6px 178.5px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.or__part {
+    margin: 62.11px 0 62px 194px;
+    z-index: 3;
+}
+
+.line__img {
+    position: absolute;
+    bottom: 15px;
+    z-index: auto;
+}
+
+.google-apple__btn {
+    width: 405px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 25.02px 0;
+}
+
+.btn__google {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    width: 191px;
+    justify-content: start;
+    border-radius: 7px;
+    font-size: 12px;
+    color: #000;
+}
+
+.btn__apple {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    width: 191px;
+    height: 33px;
+    justify-content: start;
+    border-radius: 7px;
+    font-size: 12px;
+    color: #000;
+
+}
+
+.img {
+    margin: 0 10px 0 24px;
+    width: 21px;
+    height: 21px;
+}
+
+.sign__in {
+    margin: 0 0 0 113px;
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: #000 0 4px 7px;
+}
+
+.sign__in-end {
+    color: #0F3DDE;
+}
+
+.main-site__img {
+    position: absolute;
+    left: 950px;
+    top: -1px;
+}
+
+/*////////////////////////////////////////////////*/
+
+.welcome__container {
+    margin: 0 0 0 265px;
+}
+
+
+.start__wb {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+
+.second__start {
+    margin: 0 0 59px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
